@@ -1,0 +1,105 @@
+/* Start Main Rulez */
+body {
+	background-color: #F4F4F4
+	}
+/* End Main Rulez */
+/*--------------------------------------------------------------------------------------
+/* Start Login Form */
+.login {
+	width: 300px;
+	margin: 100px auto
+	}
+.login h4 {
+	color: #888
+	}
+.login input {
+	margin-bottom: 10px
+	}
+.login .form-control {
+	background-color: #EAEAEA
+	}
+.login .btn {
+	background-color: #008dde
+	}
+/* End Login Form */
+/*--------------------------------------------------------------------------------------
+/* Start Task Languages */
+.relative {
+	width: 150px;
+	height: 40px;
+	border: 2px solid #777;
+	position: relative;
+	border-radius:10px 10px 0 0;
+	background-color: #333;
+	padding: 5px;
+	margin: 5px;
+	margin-bottom: 0
+	}
+.relative:hover {
+	background-color: #111;
+	}
+	.relative a {
+	width: 150px;
+	height: 40px;
+	color: #777;
+	position: absolute;
+	left: 0px;
+	top: 7px;
+	color: #CCC;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	}
+.relative input[type=checkbox] {
+	width: 150px;
+	height: 40px;
+	opacity: 0;
+	border: 1px solid #F00;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	}
+.relative .child
+	{
+	width: 150px;
+	height: 90px;
+	border: 2px solid #777;
+	border-radius: 0 0 10px 10px;
+	background-color: #DDD;
+	visibility: hidden;
+	position: absolute;
+	left: -2px;
+	top: 35px;
+	overflow: hidden;
+	z-index: 999
+	}
+
+.relative > input[type=checkbox]:checked ~ .child{
+	visibility: visible
+	}
+input {
+	width: 150px;
+	padding: 10px;
+	cursor: pointer;
+	}
+/* End Task Languages */
+/*--------------------------------------------------------------------------------------
+/* Start Content */
+.container section {
+	padding: 20px;
+}
+.container section ul {
+	margin-top: 25px;
+}
+.container section ul .title:first-line {
+	font-weight: bold;
+}
+.container section ul ol li ol {
+	font-style: italic;
+}
+.container section textarea {
+	width: 440px;
+	height: 25px;
+}
+/* End Content */
+/*--------------------------------------------------------------------------------------
